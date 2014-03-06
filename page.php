@@ -5,9 +5,10 @@
 				<h2 class="entry-title"><?php the_title(); ?></h2>
 			</header>
 			<?php if ( has_post_thumbnail() ) : ?>
-			<div class="entry-thumbnail">
+			<figure class="entry-thumbnail">
 				<?php the_post_thumbnail(); ?>
-			</div>
+				<figcaption><a href="http://blackandwhitecity.net"></a></figcaption>
+			</figure>
 			<?php endif; ?>
 			<div class="entry-content">
 				<?php the_content(); ?>
