@@ -1,5 +1,11 @@
 <?php get_header(); ?>
-    <p>
-    	<b>Dessy Chongarova</b>'s website is on its way...<br> Meanwhile, you can follow me on <a href="http://twitter.com/des_cho">Twitter</a> and <a href="http://instagram.com/descho">Instagram</a> or contact me via <a href="mailto:dessy@chongarova.com">email</a>.
-    </p> 
+    <?php while ( have_posts() ) : the_post(); ?>
+    	<article class="entry">
+    		<header class="page-header">
+    			<h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+    			<p class="entry-date">Posted on <time><?php the_time( 'd.m.Y' ); ?></time></p>
+    		</header>
+    		<section class="entry-content"><?php the_content(); ?></section>
+    	</article>
+    <?php endwhile; ?>
     <?php get_footer(); ?>
