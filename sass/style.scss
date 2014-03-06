@@ -1,5 +1,5 @@
 /*!
-Theme Name: Des Cho
+Theme Name: Laconical
 Author: Dessy Chongarova
 */
 
@@ -9,7 +9,6 @@ Author: Dessy Chongarova
 @import "typography";
 @import "colours";
 @import "layout";
-@import "mixins";
 @import "nav";
 @import "forms";
 @import "code";
@@ -45,14 +44,3 @@ img {
 	height: auto;
 	display: inline;
 }
-
-// Temp
-
-// .home {
-// 	.main-nav {
-// 		display: none;
-// 	}
-// 	.entry-content {
-// 		text-align: center;
-// 	}
-// }

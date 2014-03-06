@@ -8,7 +8,6 @@ body {
 	font-family: $sans-serif;
 	margin: 0;
 	@media (min-width: $narrow) {
-//		margin: 0 8%;
 	}
 	@media (min-width: $wide) {
 		font-size: 1.125em;
@@ -26,11 +25,8 @@ a {
 		text-decoration: underline;
 	}
 }
-.site-title {	
-//	margin: 0 0 0.8em 0;
-//	margin: -2em -2em 0 -2em;
+.site-title {
 	@media (min-width: $narrow) {
-//		margin: 0;
 	}
 	white-space: nowrap;
 	font-family: $sans-serif;
@@ -61,7 +57,6 @@ a {
 	text-transform: lowercase;
 }
 .entry {
-//	border-bottom: 1px solid #aaa;
 	padding-bottom: 1em;
 	@media (max-height: $xshort) {
 		padding-bottom: 0;

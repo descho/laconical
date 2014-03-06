@@ -1,16 +1,6 @@
 .site-header {
-//	@include clearfix;
-//	max-width: 1120px;
 	margin: 0 auto;
-//	padding: 0 5% 1.8em;
 	text-align: center;
-	@media (min-width: $narrow) {
-//		padding: 0 0 2.2em;
-//		text-align: left;
-	}
-	@media (max-height: $short) {
-//		padding: 0 0 1.2em;
-	}
 }
 .site-title {	
 	width: 112.7%;
@@ -18,7 +8,6 @@
 	@media (max-width: $xnarrow) {
 		margin: -0.34em -51.5% 0;
 	}
-
 	position: fixed;
 	z-index: -1;
 	text-align: center;
@@ -28,10 +17,7 @@
 	margin: 0 auto;
 	box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
 	position: relative;
-//	top: 2em;
-//	@media (min-width: $narrow) {
-		top: 3em;
-//	}
+	top: 3em;
 	@media (min-width: $wide) {
 		top: 4em;
 	}
