@@ -12,11 +12,12 @@ form {
 #mc-embedded-subscribe-form {
  	margin: 2em auto;
 }
-input {
+input, textarea {
 	font-size: 1em;
 	font-family: inherit;
 	border-radius: $small-radius;
-	width: 100%;
+	width: 100% !important;
+	max-width: 100% !important;
 	padding: 0.5em 0.7em;
 	border: 1px solid darken($background-colour, 10%);
 	outline: none;
@@ -25,16 +26,19 @@ input {
 		border: 1px solid darken($background-colour, 30%);
 	}
 }
-.button {
+.pushbutton-wide {
 	cursor: pointer;
 	background-color: darken($background-colour, 5%);
 	color: inherit;
-	@media (min-width: $narrow) {
-		width: 35.9%;
-		float: right;
-	}
 	&:hover {
 		background-color: darken($background-colour, 15%);
 		border: 1px solid darken($background-colour, 30%);
+	}
+}
+.button {
+	@extend .pushbutton-wide;
+	@media (min-width: $narrow) {
+		width: 35.9%;
+		float: right;
 	}
 }
