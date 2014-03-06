@@ -1,0 +1,43 @@
+form {
+	@include clearfix;
+}
+.mc-field-group {
+	width: 100%;
+	margin: 0 0.5em 0.5em 0;
+	@media (min-width: $narrow) {
+		width: 61.3%;
+		float: left;
+	}
+}
+#mc-embedded-subscribe-form {
+// 	max-width: 456px;
+ 	margin: 2em auto;
+}
+input {
+	font-size: 1em;
+	font-family: inherit;
+	border-radius: $small-radius;
+	width: 100%;
+//	max-width: 320px;
+	padding: 0.5em 0.7em;
+	border: 1px solid darken($background-colour, 10%);
+	outline: none;
+	-webkit-appearance: none;
+	&:hover, &:focus {
+		border: 1px solid darken($background-colour, 30%);
+	}
+}
+.button {
+//	border: none;
+	cursor: pointer;
+	background-color: darken($background-colour, 5%);
+	color: inherit;
+	@media (min-width: $narrow) {
+		width: 35.9%;
+		float: right;
+	}
+	&:hover {
+		background-color: darken($background-colour, 15%);
+		border: 1px solid darken($background-colour, 30%);
+	}
+}

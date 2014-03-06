@@ -1,0 +1,12 @@
+.gist .gist-file {
+	.gist-data {
+		background-color: $light-background !important;
+		font-size: 0.75em !important;
+	}
+	.gist-meta {
+		background-color: $light-background !important;
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to($light-background)) !important;
+		background-image: -webkit-linear-gradient(#fafafa, $light-background) !important;
+		background-image: linear-gradient(#fafafa, $light-background) !important;
+	}
+}

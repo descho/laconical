@@ -1,0 +1,58 @@
+/*!
+Theme Name: Des Cho
+Author: Dessy Chongarova
+*/
+
+@import "compass/utilities/general/clearfix";
+@import "fonts";
+@import "variables";
+@import "typography";
+@import "colours";
+@import "layout";
+@import "mixins";
+@import "nav";
+@import "forms";
+@import "code";
+
+a, input {
+	transition: background-color 0.4s, border-color 0.4s;
+}
+* {
+	box-sizing: border-box;
+}
+ol {
+	padding: 0;
+	margin: 0;
+	& > li:before {
+    	font-weight: bold;
+    }
+	li {
+		font-weight: bold;
+		h3 {
+			font-size: 1em;
+			text-transform: uppercase;
+		}
+		p {
+			font-weight: normal;
+		}
+	}
+	@media (max-width: $narrow) {
+		list-style-position: inside;
+	}
+}
+img {
+	max-width: 100%;
+	height: auto;
+	display: inline;
+}
+
+// Temp
+
+// .home {
+// 	.main-nav {
+// 		display: none;
+// 	}
+// 	.entry-content {
+// 		text-align: center;
+// 	}
+// }

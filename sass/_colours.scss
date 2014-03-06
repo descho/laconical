@@ -1,0 +1,24 @@
+body {
+	color: $main-text-colour;
+	background-color: $background-colour;
+}
+a {
+	color: $link-colour;
+	&:hover {
+		color: $main-text-colour;
+	}
+}
+.site-title a {
+	color: darken($background-colour, 5%);
+	text-shadow: 0 1px 1px lighten($background-colour, 5%), 0 -1px 0 darken($background-colour, 11%);
+}
+.main-nav {	
+	background-color: lighten($background-colour, 2%);
+	box-shadow: 0 1px 0 darken($background-colour, 5%);
+}
+.wrap {
+	background-color: $white;
+}
+.entry-date {
+	color: lighten($main-text-colour, 30%);
+}

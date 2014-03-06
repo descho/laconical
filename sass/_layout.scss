@@ -1,0 +1,62 @@
+.site-header {
+//	@include clearfix;
+//	max-width: 1120px;
+	margin: 0 auto;
+//	padding: 0 5% 1.8em;
+	text-align: center;
+	@media (min-width: $narrow) {
+//		padding: 0 0 2.2em;
+//		text-align: left;
+	}
+	@media (max-height: $short) {
+//		padding: 0 0 1.2em;
+	}
+}
+.site-title {	
+	width: 112.7%;
+	margin: -0.34em -6.7% 0;
+	@media (max-width: $xnarrow) {
+		margin: -0.34em -51.5% 0;
+	}
+
+	position: fixed;
+	z-index: -1;
+	text-align: center;
+}
+.wrap {
+	max-width: $wrap;
+	margin: 0 auto;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+	position: relative;
+//	top: 2em;
+//	@media (min-width: $narrow) {
+		top: 3em;
+//	}
+	@media (min-width: $wide) {
+		top: 4em;
+	}
+	@media (min-width: $xxwide) {
+		top: 5em;
+	}
+}
+.main {
+	padding: 0 7% 2em;
+	@media (min-width: $narrow) {
+		padding: 0 11% 2em;
+	}
+	@media (min-width: $wide) {
+		padding: 0 13% 2em;
+	}
+	@media (min-width: $xwide) {
+		padding: 0 16% 2em;
+	}
+}
+.main-nav {	
+	max-width: $wrap;
+	height: $main-nav-height;
+	line-height: $main-nav-height;
+	text-align: center;
+}
+.entry-thumbnail {
+	margin-bottom: 1.6em;
+}
