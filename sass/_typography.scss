@@ -36,10 +36,10 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	font-weight: 500;
 	font-size: 7.8em;
-	line-height: 1;	
+	line-height: 1;
 	font-weight: 600;
 	a {
-		text-decoration: none;	
+		text-decoration: none;
 		transition: none;
 		&:hover {
 			text-decoration: none;
@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 		padding: 2em 0;
 	}
 }
-.main-nav {	
+.main-nav {
 	text-transform: lowercase;
 }
 .entry {
@@ -93,4 +93,18 @@ h1, h2, h3, h4, h5, h6 {
 .social-links {
 	text-align: center;
 	font-size: 1.1em;
+}
+.entry-thumbnail-caption {
+	color: white;
+	font-size: 0.75em;
+	font-style: italic;
+	font-weight: 300;
+	text-shadow: 0 0 5px #000;
+	a {
+		color: inherit;
+		text-decoration: underline;
+		&:hover {
+			color: inherit;
+		}
+	}
 }

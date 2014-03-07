@@ -7,7 +7,7 @@
 			<?php if ( has_post_thumbnail() ) : ?>
 			<figure class="entry-thumbnail">
 				<?php the_post_thumbnail(); ?>
-				<figcaption><a href="http://blackandwhitecity.net"></a></figcaption>
+				<figcaption class="entry-thumbnail-caption">Photo by <a href="http://blackandwhitecity.net">Ivan Kolev</a></figcaption>
 			</figure>
 			<?php endif; ?>
 			<div class="entry-content">

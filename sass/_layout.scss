@@ -2,7 +2,7 @@
 	margin: 0 auto;
 	text-align: center;
 }
-.site-title {	
+.site-title {
 	width: 112.7%;
 	margin: -0.34em -6.7% 0;
 	@media (max-width: $xnarrow) {
@@ -37,7 +37,7 @@
 		padding: 0 16% 2em;
 	}
 }
-.main-nav {	
+.main-nav {
 	max-width: $wrap;
 	height: $main-nav-height;
 	line-height: $main-nav-height;
@@ -45,4 +45,10 @@
 }
 .entry-thumbnail {
 	margin-bottom: 1.6em;
+	position: relative;
+}
+.entry-thumbnail-caption {
+	position: absolute;
+	bottom: 0.8em;
+	right: 1.1em;
 }
