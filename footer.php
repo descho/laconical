@@ -2,7 +2,7 @@
 		</div> <!-- end of .wrap -->
 		<?php wp_footer(); ?>
 		<script>
-			jQuery("#responsive_headline").fitText(1, { minFontSize: '10px', maxFontSize: '145px' });
+			jQuery("#responsive_headline").fitText(1, { minFontSize: '54px', maxFontSize: '145px' });
 		</script>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
