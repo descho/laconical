@@ -38,7 +38,7 @@ input, textarea {
 .button {
 	@extend .pushbutton-wide;
 	@media (min-width: $narrow) {
-		width: 35.9%;
+		width: 35.9% !important;
 		float: right;
 	}
 }
