@@ -6,8 +6,8 @@
 			</header>
 			<?php if ( has_post_thumbnail() ) : ?>
 			<figure class="entry-thumbnail">
-				<?php the_post_thumbnail(); ?>
-				<figcaption class="entry-thumbnail-caption">Photo by <a href="http://blackandwhitecity.net">Ivan Kolev</a></figcaption>
+				<?php the_post_thumbnail();
+				echo '<figcaption class="entry-thumbnail-caption">' . get_post(get_post_thumbnail_id())->post_excerpt . '</figcaption>'; ?>
 			</figure>
 			<?php endif; ?>
 			<div class="entry-content">
