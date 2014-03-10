@@ -3,10 +3,7 @@ body {
 	background-color: $background-colour;
 }
 a {
-	color: $link-colour;
-	&:hover {
-		color: $main-text-colour;
-	}
+	color: $accent-colour;
 }
 .site-title a {
 	color: darken($background-colour, 5%);
@@ -15,6 +12,12 @@ a {
 .main-nav {	
 	background-color: lighten($background-colour, 2%);
 	box-shadow: 0 1px 0 darken($background-colour, 5%);
+	a {
+		color: $link-colour;
+		&:hover {
+			color: $main-text-colour;
+		}
+	}
 }
 .wrap {
 	background-color: $white;
