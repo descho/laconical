@@ -33,6 +33,11 @@ h1, h2, h3, h4, h5, h6 {
 		}
 	}
 }
+figure, .gist, .main-nav {
+	a:hover {
+		border-bottom: none;
+	}
+}
 .site-title {
 	@media (min-width: $narrow) {
 	}
@@ -63,11 +68,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .main-nav {
 	text-transform: lowercase;
-	a {
-		&:hover {
-			border-bottom: none;
-		}
-	}
 }
 .entry {
 	padding-bottom: 1em;
