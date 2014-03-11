@@ -47,3 +47,11 @@ img {
 figure {
 	margin: 0;
 }
+::-moz-selection { 
+	color: white;  
+	background: $accent-colour; 
+}
+::selection { 
+	color: white;  
+	background: $accent-colour; 
+} 
