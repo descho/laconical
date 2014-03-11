@@ -6,8 +6,12 @@ a {
 	color: $accent-colour;
 }
 .site-title a {
-	color: darken($background-colour, 5%);
+	color: darken($background-colour, 4%);
 	text-shadow: 0 1px 1px lighten($background-colour, 5%), 0 -1px 0 darken($background-colour, 11%);
+	&:hover {
+		color: darken($background-colour, 6%);
+		border-bottom: none;
+	}
 }
 .main-nav {	
 	background-color: lighten($background-colour, 2%);
