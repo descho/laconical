@@ -25,3 +25,23 @@ a {
 .entry-date {
 	color: lighten($main-text-colour, 30%);
 }
+.entry-thumbnail {
+	background-color: $background-colour;
+	figcaption {
+		opacity: 0;
+	}
+	&:hover {
+		figcaption {
+			opacity: 1;
+		}
+	}
+	img {
+		display: block; 
+		opacity: 0.95;
+		-webkit-backface-visibility: hidden;
+		&:hover {
+			opacity: 1;
+		}
+		transition: opacity 0.2s;
+	}
+}
