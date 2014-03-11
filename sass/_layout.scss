@@ -42,12 +42,20 @@
 	line-height: $main-nav-height;
 	text-align: center;
 }
+.entry-thumbnail-caption {
+	position: absolute;
+	right: 1.1em;
+	bottom: -1em;
+	opacity: 0;
+	transition: all 0.4s;
+}
 .entry-thumbnail {
 	margin-bottom: 1.6em;
 	position: relative;
-}
-.entry-thumbnail-caption {
-	position: absolute;
-	bottom: 0.8em;
-	right: 1.1em;
+	&:hover {
+		.entry-thumbnail-caption {
+			bottom: 0.5em;
+			opacity: 1;
+		}
+	}
 }
