@@ -22,11 +22,16 @@ p {
 a {
 	text-decoration: none;
 	&:hover {
-		text-decoration: underline;
+		border-bottom: 0.1em solid $accent-colour;
 	}
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 600;
+	a {
+		&:hover {
+			border-bottom: 0.075em solid $accent-colour;
+		}
+	}
 }
 .site-title {
 	@media (min-width: $narrow) {
@@ -58,6 +63,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .main-nav {
 	text-transform: lowercase;
+	a {
+		&:hover {
+			border-bottom: none;
+		}
+	}
 }
 .entry {
 	padding-bottom: 1em;
