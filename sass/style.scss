@@ -13,7 +13,7 @@ Author: Dessy Chongarova
 @import "forms";
 @import "code";
 
-a, input {
+a, input, textarea {
 	transition: background-color 0.4s, border-color 0.4s, color 0.4s;
 }
 * {
@@ -47,11 +47,11 @@ img {
 figure {
 	margin: 0;
 }
-::-moz-selection { 
-	color: white;  
-	background: $accent-colour; 
+::-moz-selection {
+	color: white;
+	background: $accent-colour;
 }
-::selection { 
-	color: white;  
-	background: $accent-colour; 
-} 
+::selection {
+	color: white;
+	background: $accent-colour;
+}
