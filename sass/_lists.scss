@@ -1,0 +1,20 @@
+dl {
+	@media (min-width: $wide) {
+		font-size: 0.85em;
+	}
+}
+dt {
+	@media (min-width: $wide) {
+		float: left;
+		width: 30%;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
+dd {
+	margin: 0;
+	@media (min-width: $wide) {
+		margin-left: 32%;
+	}
+}
