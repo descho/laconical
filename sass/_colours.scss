@@ -22,6 +22,14 @@ a {
 			color: $main-text-colour;
 		}
 	}
+	.social-links {
+		a {
+			color: lighten($link-colour, 15%);
+			&:hover {
+				color: lighten($main-text-colour, 15%);
+			}
+		}
+	}
 }
 .wrap {
 	background-color: $white;
