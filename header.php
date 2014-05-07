@@ -29,7 +29,7 @@
 				<ul class="menu social-links">
 					<li class="menu-item"><a href="http://twitter.com/des_cho" target="_blank"><span class="icon-twitter2"></span></a></li>
 					<li class="menu-item"><a href="http://instagram.com/descho" target="_blank"><span class="icon-instagram"></span></a></li>
-					<li class="menu-item"><a href="http://linkedin.com/in/descho/" target="_blank"><span class="icon-linkedin"></span></a></li>
+					<li class="menu-item"><a href="https://dribbble.com/descho" target="_blank"><span class="icon-dribbble"></span></a></li>
 				</ul>
 			</nav>
 			<section class="main">
