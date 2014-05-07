@@ -22,19 +22,14 @@ add_theme_support( 'menus' );
 // This featured image
 add_theme_support( 'post-thumbnails' );
 
-//remove_theme_support( 'editor' );
+// Widgets
+$args = array(
+	'name'          => __( 'Footer' ),
+	'id'            => 'footer',
+	'before_widget' => '',
+	'after_widget'  => '',
+	'before_title'  => '<h5',
+	'after_title'   => '</h5>' 
+);
 
-function remove_box()
-{
-//	remove_post_type_support('post', 'editor');
-//	remove_meta_box( 'sqpt-meta-tags' , 'post' , 'normal' ); 
-//	remove_post_type_support('post', 'tagsdiv-post_tags');
-}
-// add_action("admin_init", "remove_box");
-
-// function remove_post_tags() {
-// 	remove_meta_box( 'sqpt-meta-tags' , 'post' , 'normal' ); 
-// }
-// add_action( 'admin_init' , 'remove_post_tags' );
-
-?>
+register_sidebar ( $args );

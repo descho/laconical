@@ -1,4 +1,7 @@
-		</section> <!-- end of .main -->
+			</section> <!-- end of .main -->
+			<footer>
+				<?php dynamic_sidebar( 'footer' ); ?>
+			</footer>
 		</div> <!-- end of .wrap -->
 		<?php wp_footer(); ?>
 		<script>
