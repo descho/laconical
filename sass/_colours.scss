@@ -31,8 +31,21 @@ a {
 		}
 	}
 }
-.wrap {
+.panel {
 	background-color: $white;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+#instagram li {
+	@extend .panel;
+	padding: 5px;
+	margin: 5px;
+	img {
+		display: block;
+	}
+}
+footer h5 {
+	@extend .panel;
+	padding: 0.5em 1em;
 }
 .entry-date {
 	color: lighten($main-text-colour, 30%);

@@ -1,8 +1,8 @@
 			</section> <!-- end of .main -->
-			<footer>
-				<?php dynamic_sidebar( 'footer' ); ?>
-			</footer>
 		</div> <!-- end of .wrap -->
+		<footer class="wrap">
+			<?php dynamic_sidebar( 'footer' ); ?>
+		</footer>
 		<?php wp_footer(); ?>
 		<script>
 			jQuery("#responsive_headline").fitText(1, { minFontSize: '54px', maxFontSize: '145px' });

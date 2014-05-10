@@ -11,10 +11,9 @@
 	position: fixed;
 	text-align: center;
 }
-.wrap {
+.wrap, .footer  {
 	max-width: $wrap;
 	margin: 0 auto;
-	box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
 	position: relative;
 	top: 3em;
 	@media (min-width: $wide) {

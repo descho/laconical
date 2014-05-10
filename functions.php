@@ -28,7 +28,7 @@ $args = array(
 	'id'            => 'footer',
 	'before_widget' => '',
 	'after_widget'  => '',
-	'before_title'  => '<h5',
+	'before_title'  => '<h5>',
 	'after_title'   => '</h5>' 
 );
 
