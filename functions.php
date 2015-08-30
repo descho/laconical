@@ -3,6 +3,7 @@
 // Load the Theme CSS
 function theme_styles() {
 	wp_enqueue_style( 'main', get_template_directory_uri() . '/style.css' );
+	wp_enqueue_style( 'main', get_template_directory_uri() . '/shame.css' );
 //	wp_enqueue_style( 'iconfont', 'http://i.icomoon.io/public/temp/1e258455d3/UntitledProject1/style.css' );
 	wp_enqueue_style( 'googlefonts', 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic,700italic' );
 
